@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Random Password Generator</h1>
+
+        <div class="generator-box glass">
+            <div class="output">
+                <input type="text" id="password" readonly>
+                <button id="copyBtn" class="copy-btn">Copy</button>
+            </div>
+
+            <div class="settings">
+                <label>Length: 
+                    <span id="lengthValue">16</span>
+                </label>
+                <input type="range" id="length" min="4" max="40" value="16">
+
+                <label><input type="checkbox" id="upper" checked> Big letter (A-Z)</label>
+                <label><input type="checkbox" id="lower" checked> Small letter (a-z)</label>
+                <label><input type="checkbox" id="numbers" checked> numbers (0-9)</label>
+                <label><input type="checkbox" id="symbols"> symbols (!@#$%)</label>
+            </div>
+
+            <button id="generateBtn" class="generate-btn">Generate</button>
+        </div>
+
+        <footer>© Professional UI. Designed and Coded by ShaxzodDev</footer>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

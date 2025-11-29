@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins", sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#5b21b6,#0ea5e9);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.container{
+    width:100%;
+    max-width:420px;
+    text-align:center;
+    color:white;
+}
+
+.title{
+    margin-bottom:20px;
+    font-size:28px;
+    letter-spacing:1px;
+    font-weight:600;
+}
+
+.glass{
+    background:rgba(255,255,255,0.08);
+    padding:25px;
+    border-radius:16px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.25);
+    backdrop-filter:blur(12px);
+    border:1px solid rgba(255,255,255,0.15);
+}
+
+.output{
+    display:flex;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.output input{
+    width:100%;
+    padding:12px;
+    border:none;
+    outline:none;
+    background:#ffffff12;
+    border-radius:10px;
+    font-size:16px;
+    color:#fff;
+}
+
+.copy-btn{
+    padding:11px 15px;
+    margin-left:10px;
+    border:none;
+    border-radius:10px;
+    background:#22d3ee;
+    cursor:pointer;
+    color:#000;
+    font-weight:600;
+}
+
+.settings{
+    text-align:left;
+    margin-bottom:20px;
+    font-size:15px;
+}
+
+.settings label{
+    display:block;
+    margin:10px 0;
+}
+
+input[type="range"]{
+    width:100%;
+    margin-top:4px;
+}
+
+.generate-btn{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:12px;
+    background:#a855f7;
+    color:white;
+    font-size:17px;
+    cursor:pointer;
+    font-weight:600;
+    transition:.25s;
+}
+
+.generate-btn:hover{
+    background:#9333ea;
+}
+
+footer{
+    margin-top:20px;
+    opacity:.7;
+    font-size:13px;
+}
